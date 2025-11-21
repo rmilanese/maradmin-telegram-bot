@@ -25,9 +25,9 @@ This bot:
 
 ------------------------------------------------------------------------
 
-## 📥 Installation
+## 1. Installation
 
-### 1. Clone the repository
+### Clone the repository
 
 ``` bash
 git clone https://github.com/rmilanese/maradmin-telegram-bot.git
@@ -36,7 +36,7 @@ cd maradmin-telegram-bot
 
 ------------------------------------------------------------------------
 
-## 🤖 Create Your Telegram Bot
+## 2. Create Your Telegram Bot
 
 1.  Open Telegram\
 2.  Search for **@BotFather**\
@@ -46,7 +46,7 @@ cd maradmin-telegram-bot
 
 ------------------------------------------------------------------------
 
-## 👤 Get Your Telegram Chat ID
+## 3. Get Your Telegram Chat ID
 
 1.  Open Telegram\
 2.  Search for **@userinfobot**\
@@ -57,7 +57,7 @@ Save this as well.
 
 ------------------------------------------------------------------------
 
-## Initiate Bot Conversation
+## 4. Initiate Bot Conversation
 
 1. Open Telegram\
 2. Search for your new bot by its username\
@@ -66,7 +66,7 @@ Save this as well.
 ------------------------------------------------------------------------
 
 
-## ⚙️ Configuration
+## 5. Configuration
 
 Open `docker-compose.yml` and set:
 
@@ -78,7 +78,7 @@ environment:
 
 ------------------------------------------------------------------------
 
-## 🐳 Run With Docker
+## 6. Run With Docker
 
 Build and start the bot:
 
