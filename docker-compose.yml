@@ -1,0 +1,11 @@
+
+services:
+  maradmin_bot:
+    build: .
+    container_name: maradmin_bot
+    environment:
+      TELEGRAM_TOKEN: "<YOUR_TELEGRAM_BOT_TOKEN>"
+      TELEGRAM_CHAT_ID: "<YOUR_TELEGRAM_CHAT_ID>"
+    volumes:
+      - ./data:/app/data       # only mount the data folder
+    restart: unless-stopped
