@@ -14,17 +14,6 @@ This bot:
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
-
--   Python 3.11
--   Uses RSS feed from Marines.mil
--   Telegram notifications via Bot API
--   Persistent state stored in `data/sent.json`
--   Auto-restarts via Docker
--   Lightweight & simple to deploy
-
-------------------------------------------------------------------------
-
 ## 1. Installation
 
 ### Clone the repository
@@ -100,7 +89,7 @@ docker compose down
 
 ------------------------------------------------------------------------
 
-## 🧠 How It Works
+## How It Works
 
 The bot checks the MARADMIN RSS feed every 5 minutes.
 
@@ -112,7 +101,7 @@ For each `<item>`, it extracts:
 
 If the GUID has not been seen before, it sends:
 
-    📄 New MARADMIN Posted
+    New MARADMIN Posted
 
     <TITLE>
     <URL>
@@ -134,18 +123,6 @@ duplicates.
 
 ------------------------------------------------------------------------
 
-## 🛠 Updating
-
-To pull code updates:
-
-``` bash
-git pull
-docker compose build
-docker compose up -d
-```
-
-------------------------------------------------------------------------
-
 ## Future Work
 
 -   Filters (e.g., only send PMOS-related MARADMINs)
@@ -156,7 +133,7 @@ docker compose up -d
 
 ------------------------------------------------------------------------
 
-## 📜 License
+## License
 
 MIT License -- free to use, modify, fork, deploy.
 
