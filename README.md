@@ -27,19 +27,19 @@ cd maradmin-telegram-bot
 
 ## 2. Create Your Telegram Bot
 
-1.  Open Telegram\
-2.  Search for **@BotFather**\
-3.  Run `/start`\
-4.  Run `/newbot` and follow prompts\
+1.  Open Telegram
+2.  Search for **@BotFather**
+3.  Run `/start`
+4.  Run `/newbot` and follow prompts
 5.  BotFather gives you a **Bot Token**, save it.
 
 ------------------------------------------------------------------------
 
 ## 3. Get Your Telegram Chat ID
 
-1.  Open Telegram\
-2.  Search for **@userinfobot**\
-3.  Type `/start`\
+1.  Open Telegram
+2.  Search for **@userinfobot**
+3.  Type `/start`
 4.  It replies with your **chat ID**
 
 Save this as well.
@@ -48,8 +48,8 @@ Save this as well.
 
 ## 4. Initiate Bot Conversation
 
-1. Open Telegram\
-2. Search for your new bot by its username\
+1. Open Telegram
+2. Search for your new bot by its username
 3. Click **Start** to initiate conversation
 
 ------------------------------------------------------------------------
